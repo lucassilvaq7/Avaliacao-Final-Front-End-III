@@ -1,0 +1,72 @@
+.fs-1 {
+    font-size: 60px !important;
+}
+
+.text-green {
+    color: #105718;
+}
+
+.text-dark-green {
+    color: #031505;
+}
+
+.text-light-green {
+    color: #1ACD2B;
+}
+
+
+.bg-dark-green {
+    background-color: #031505;
+    border: #1ACD2B 1px solid;
+}
+
+.bg-btn-light-green {
+    background-color: #1ACD2B;
+}
+
+.bg-btn-light-green:hover {
+    background-color: #13861f;
+}
+
+main {
+    min-height: calc(100% + 245px);
+}
+
+.banner {
+    background-image: url('../images/FUNDO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bg-footer {
+    background-color: #1F2821;
+    width: 100vw;
+}
+
+.input-group .form-control {
+    border-right: none;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.characters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.character-card {
+    min-width: 570px;
+    max-width: 570px;
+}
+
+.img-fluid {
+    max-height: 232px;
+    max-width: 232px;
+}

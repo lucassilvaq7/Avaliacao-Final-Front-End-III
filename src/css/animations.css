@@ -1,0 +1,53 @@
+.title-animations {
+    animation: slideIn 2s forwards, change-colors 5s infinite;
+}
+
+.slide-in {
+    animation: slideIn 2s forwards;
+}
+
+.pulse {
+    animation: pulse 3s infinite;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1)
+    }
+
+    50% {
+        transform: scale(1.5)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes change-colors {
+    0% {
+        color: #105718;
+    }
+
+    50% {
+        color: #1ACD2B;
+    }
+
+    75% {
+        color: #083a0e;
+    }
+
+    100% {
+        color: #105718;
+    }
+}
